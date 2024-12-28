@@ -45,7 +45,7 @@ Run the Python script.
 The script will generate an output.csv file with the converted data.
 
 ## Dependencies
-Python 3.x
+Python 3.11
 The json module (built-in Python library, no installation required)
 
 ## Error Handling
