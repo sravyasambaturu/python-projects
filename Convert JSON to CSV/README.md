@@ -35,14 +35,16 @@ Bob,,1999,
 Charlie,22,,New York
 ```
 ## Features
-Dynamic Header Generation: The program automatically detects all keys in the JSON objects, ensuring that the CSV columns match the data.
-Handles Missing Data: If a key is missing from an object, the program fills that field with an empty value in the CSV.
-CSV Formatting: The output is correctly formatted as a CSV, with comma-separated values, making it suitable for use in spreadsheet applications like Excel.
+**Dynamic Header Generation**: The program automatically detects all keys in the JSON objects, ensuring that the CSV columns match the data.
+
+**Handles Missing Data**: If a key is missing from an object, the program fills that field with an empty value in the CSV.
+
+**CSV Formatting**: The output is correctly formatted as a CSV, with comma-separated values, making it suitable for use in spreadsheet applications like Excel.
 
 ## How to Use
-Place your JSON data in a file named input.json.
-Run the Python script.
-The script will generate an output.csv file with the converted data.
+- Place your JSON data in a file named input.json.
+- Run the Python script.
+- The script will generate an output.csv file with the converted data.
 
 ## Dependencies
 Python 3.11
