@@ -7,4 +7,3 @@ while target_number != guess_number :
     guess_number = int(input("Enter a number between 1 to 10 until your guess is right!: "))
 
 print("Well Guessed!")
-
